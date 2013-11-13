@@ -16,7 +16,7 @@ namespace ConsoleTest
 
         static void SayHello()
         {
-            Console.WriteLine("Hello World")
+            Console.WriteLine("Hello World");
         }
     }
 }
