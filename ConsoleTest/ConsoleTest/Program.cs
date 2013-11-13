@@ -11,13 +11,17 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
             SayHello();
+            var businessLogic = new BusinessLogic();
+            Console.WriteLine(businessLogic.Add(3, 3));
+            Console.WriteLine(businessLogic.Subtract(3, 3));
             Console.Read();
         }
 
-        static void SayHello()
+        public static bool SayHello()
         {
             Console.WriteLine("Hello");
             Console.WriteLine("World");
+            return true;
         }
     }
 }
