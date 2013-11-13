@@ -20,7 +20,7 @@ namespace ConsoleTest
 
         public int Subtract(int first, int second)
         {
-            return first + second;
+            return first - second;
         }
     }
 }
