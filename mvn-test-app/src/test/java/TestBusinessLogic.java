@@ -18,5 +18,10 @@ public class TestBusinessLogic {
 	public void testSubtract() {
 		assertEquals("3 - 3 must be 0", 0, BusinessLogic.Subtract(3,  3));
 	}
+	
+	@Test
+	public void testDevide() {
+		assertEquals("3 / 3 must be 1", 1, BusinessLogic.Devide(3,  3));
+	}
 
 }
