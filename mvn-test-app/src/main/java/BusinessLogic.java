@@ -14,4 +14,9 @@ public class BusinessLogic {
 	{
 		return first - second;
 	}
+	
+	static int Devide(int first, int second)
+	{
+		return first / second;
+	}
 }
