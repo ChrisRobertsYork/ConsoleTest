@@ -5,4 +5,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven Java Test Application</name>
   <description>This is a test application using the Maven project type</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>3.8.1</version>
+  	</dependency>
+  	<dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
 </project>
